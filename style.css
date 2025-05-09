@@ -1,0 +1,155 @@
+body{
+
+ background-color: #f8f8f8;
+
+}
+
+
+header{
+
+background-color: #fddff2;
+height: 150px;
+
+
+}
+
+#logo{
+margin: 0%;
+position: absolute;
+top: -2%;
+left: -2%;
+}
+
+#tlogo{
+    margin: 0%;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    color: rgb(90, 1, 71);
+
+}
+
+
+.welcome-container { 
+    text-align: center; 
+    background: #e6cad8; 
+    padding: 10px;
+     border-radius: 10px; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      justify-content: center;
+      align-items: center; 
+    margin-top: 10% 
+ 
+}
+    
+
+        h1 { 
+            font-size: 30px; 
+            color: #333;
+         }
+
+        p { 
+            font-size: 18px;
+             color: #555;
+        }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cf14b0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #e7c0d4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #331222;
+  }
+
+  
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    padding: 80px;
+    background: #e6cad8; 
+    background-color: whit;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+   margin-top: 10%;
+}
+
+#img1{
+margin-top: 3%;
+margin-left: 40%;
+}
+
+
+
+
+.servicos h2 {
+    font-size: larger;
+    text-align: center;
+    font-size: 4.5em;
+    margin-bottom: 50px;
+    color: #7a1856;
+    top: 90px;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.servico {
+    background: #e6cad8; 
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-top: 130px;
+}
+
+.servico:hover {
+    transform: translateY(-10px);
+}
+
+.servico h3 {
+    color: #7a1856;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.servico p {
+    color: #666;
+}
+
+.servico-img {
+    font-size: 2.5em;
+    color: #7a1856;
+    margin-bottom: 20px;
+}
+
