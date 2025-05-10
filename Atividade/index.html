@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DevSolutions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        
+        <img src="img/logo.png" alt="Devmedia logo" id="logo" height="180px">
+        <h1 id="tlogo"> DevSolutions</h1>
+
+    
+      </header>
+
+      <nav>
+
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="ser.html">Serviços</a></li>
+          </ul>
+
+      </nav>
+
+
+    
+      <div class="Bem">
+        <h1> Bem-vindo à DevSolutions!</h1>
+        <p>A inovação começa aqui. Somos apaixonados por tecnologia e soluções inteligentes que transformam desafios em oportunidades. Juntos, construímos um futuro digital onde a criatividade, a eficiência e a excelência são a base para grandes conquistas.</p>
+        <p> <strong>Explore, conecte-se, transforme.</strong> Estamos prontos para inovar com você!</p>
+    </div>
+<img src="img/home.png" alt="" height="400px" width="400px" id="img1">
+<img src="img/menina.png" alt="" height="405px" width="400px" id="img2">
+
+
+
+<div class="container">
+    <div class="box">
+        <h1 class="so">Quem somos?</h1>
+        <p class="p1">A <strong>DevSolutions</strong> é uma startup inovadora que transforma desafios tecnológicos em soluções eficientes e acessíveis. Com um compromisso sólido com qualidade e inovação, desenvolvemos produtos e serviços que impulsionam o crescimento e a competitividade de nossos clientes.</p>
+    </div>
+    <div class="box">
+        <h1 class="so">Nossa missão</h1>
+        <p class="p1">Ser referência na criação de soluções tecnológicas que promovem um impacto positivo na sociedade, impulsionando a transformação digital em diversos setores. Valorizamos a criatividade, a colaboração e a ética, garantindo transparência e excelência em cada decisão.</p>
+    </div>
+    <div class="box">
+        <h1 class="so"> Nossos valores</h1>
+        <p class="p1">Acreditamos no poder da tecnologia para criar oportunidades e dar vida a grandes ideias. Nossa equipe apaixonada e dedicada está sempre em busca de inovação, desenvolvendo soluções que atendam às demandas do mundo moderno e elevem o potencial dos nossos clientes.</p>
+    </div>
+</div>
+
+
+
+    
+    
+         <br><br><br><br><br> <h2 style="text-align: center; color: #7a1856;">Nossos Serviços</h2>
+
+
+        
+        <div class="servicos-container">
+            <div class="servico">
+                <div class="servico-img">💻</div>
+                <h3>Desenvolvimento de Software</h3>
+                <p>Soluções de software personalizadas que impulsionam seu negócio: aplicativos web ágeis e sistemas corporativos inteligentes, desenvolvidos com tecnologia de ponta para otimizar processos, reduzir custos e transformar seus desafios em vantagens competitivas - tudo 100% adaptado à realidade da sua empresa.</p>
+            </div>
+
+            <div class="servico">
+                <div class="servico-img">🔍</div>
+                <h3>Consultoria em Tecnologia</h3>
+                <p>Assessoria especializada para ajudar sua empresa a tomar as melhores decisões tecnológicas e implementar inovações.Maximize seu potencial digital: nossa consultoria identifica e implementa as melhores soluções tecnológicas para aumentar eficiência, segurança e rentabilidade do seu negócio.</p>
+            </div>
+        </div>
+    
+<footer>
+    <form class="formulario" id="contatoForm">
+        <h2 class="form-title">Entre em Contato</h2>
+
+        <div class="form-total"></div>
+
+        <div class="form-grupo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+            <div id="nomeErro" class="error-message" style="color: red; display: none;">Nome é obrigatório</div>
+        </div>
+
+        <div class="form-grupo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            <div id="emailErro" class="error-message" style="color: red; display: none;">E-mail é obrigatório</div>
+        </div>
+
+        <div class="form-grupo">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required placeholder="Como podemos ajudar?"></textarea>
+            <div id="mensagemErro" class="error-message" style="color: red; display: none;">Mensagem é obrigatória</div>
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+
+        <div id="mensagemSucesso" style="color: green; display: none; margin-top: 10px;">
+            Mensagem enviada com sucesso!
+        </div>
+    </form>
+
+    <img src="img/logo.png" alt="Logo da empresa" style="width: 300px; margin-top: -45%; margin-left: 13%;">
+    <p style="font-size: 14px; color: #000000; margin-top: -17%; margin-left: 7%;">
+        "Transformamos desafios em inovação e tecnologia para um futuro brilhante."
+    </p>
+</footer>
+
+<script>
+    
+    document.getElementById('contatoForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+      
+        document.querySelectorAll('.error-message').forEach(el => el.style.display = 'none');
+
+    
+        const nome = document.getElementById('nome').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const mensagem = document.getElementById('mensagem').value.trim();
+
+        let isValid = true;
+
+       
+        if (!nome) {
+            document.getElementById('nomeErro').style.display = 'block';
+            isValid = false;
+        }
+
+        
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email) {
+            document.getElementById('emailErro').style.display = 'block';
+            isValid = false;
+        } else if (!emailRegex.test(email)) {
+            document.getElementById('emailErro').textContent = 'Por favor, insira um e-mail válido';
+            document.getElementById('emailErro').style.display = 'block';
+            isValid = false;
+        }
+
+        
+        if (!mensagem) {
+            document.getElementById('mensagemErro').style.display = 'block';
+            isValid = false;
+        }
+
+        
+        if (isValid) {
+            alert("Mensagem enviada com sucesso!");
+            this.reset();
+        }
+    });
+</script>
+
+  
+
+</body>
+</html>
